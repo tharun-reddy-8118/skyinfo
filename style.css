@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0,0,0.75),rgb(0,0,0,0.75)),url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    padding: 35px,30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.logo{
+    width: 160px;
+    height: 120px;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    text-align: center;
+    color: rgb(36, 141, 198);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #e73414;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.2s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+
+
+/*login page*/
+#login-body{
+    height: 100vh;
+    width: 100vw;
+    background: url(./loginbg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#login-body img{
+    position: absolute;
+    top: 8%;
+    left: 45%;
+}
+#login-box{
+    height: 50vh;
+    width: 30vw;
+    background-color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    padding-top: 25px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    padding-right: 45px;
+}
+#login-box p{
+    text-align: center;
+}
+.text-box{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 30px;
+    padding: 3px;
+}
+#forgot{
+    color: blue;
+}
+#login-form a{
+    text-decoration: none;
+}
+.sign-in-btn{
+    color: #fff;
+    background-color: blue;
+    margin-top: 25px;
+    width: 100%;
+    border: 1px solid white;
+    height: 30px;
+}
+.sin{
+    position: absolute;
+    bottom: 9%;
+    left: 43%;
+    color: #fff;
+}
+.sin a{
+    text-decoration: none;
+    color: blue;
+}
+#signup-box{
+    height: 63vh;
+    width: 30vw;
+    background-color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    padding-right: 45px;
+}
+.sp{
+    color: blueviolet;
+}
+#signup-box p{
+    text-align: center;
+}
+#signup-body{
+    height: 100vh;
+    width: 100vw;
+    background: url(./loginbg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#signup-body img{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+.sin2{
+    position: absolute;
+    bottom: 5%;
+    left: 43%;
+    color: #fff;
+}
+.sin2 a{
+    text-decoration: none;
+    color: blue;
+}
